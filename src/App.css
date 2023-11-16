@@ -15,7 +15,7 @@ font-family: @import url(https://fonts.googleapis.com/css2?family=Yesteryear&dis
   padding: 25px 0;
 }
 .itemCard, .singleItem {
-  max-width: 250px;
+  width: 350px;
   border: 1px solid black;
   border-radius: 25px;
   padding: 10px;
@@ -31,7 +31,7 @@ font-family: @import url(https://fonts.googleapis.com/css2?family=Yesteryear&dis
 
  img {
   width: 100%;
-  max-height: 250px;
+  max-height: 350px;
   object-fit: cover;
 }
 
@@ -45,4 +45,11 @@ a {
 
 a:hover {
   color: rgb(94, 30, 30);
+}
+
+.links {
+  display: flex;
+  margin: 0 auto;
+  gap: 25px;
+  justify-content: center;
 }
