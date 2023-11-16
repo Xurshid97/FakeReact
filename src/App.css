@@ -1,0 +1,48 @@
+
+font-family: @import url(https://fonts.googleapis.com/css2?family=Yesteryear&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Yesteryear', handwriting;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 25px 0;
+}
+.itemCard, .singleItem {
+  max-width: 250px;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.itemCard:hover {
+  box-shadow: 0 0 3px black;
+}
+
+ img {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: inherit;
+}
+
+a:hover {
+  color: rgb(94, 30, 30);
+}
